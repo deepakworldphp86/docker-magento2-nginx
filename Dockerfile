@@ -13,9 +13,7 @@ ENV XDEBUG_PORT 9000
 
 # install and configure nginx
 RUN apt-get install -y nginx
-RUN systemctl stop nginx.service
-RUN systemctl start nginx.service
-RUN systemctl enable nginx.service
+
 
 # install MySQL
 RUN apt-get install -y mysql-client mysql-server
