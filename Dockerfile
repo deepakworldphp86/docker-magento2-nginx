@@ -60,7 +60,6 @@ RUN apt-get update \
 	apt-utils \
 	gnupg \
 	redis-tools \
-	mariadb-client \
 	git \
 	vim \
 	wget \
