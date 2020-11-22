@@ -127,7 +127,7 @@ ENV PHP_MEMORY_LIMIT 4G
 
 # install and configure php-fpm
 
-ADD configs/nginx/nginx.conf /etc/nginx/
+ADD configs/nginx/nginx.conf /etc/nginx/nginx.conf
 ADD configs/nginx/sites-available/magento /etc/nginx/sites-available/default
 ADD configs/php/7.4/php.ini /etc/php/7.4/fpm/php.ini
 ADD configs/php/7.4/php-fpm.conf /etc/php/7.4/fpm/php-fpm.conf
