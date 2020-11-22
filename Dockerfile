@@ -42,7 +42,6 @@ RUN apt-get update \
         php7.4-xml \
         php7.4-zip \
         php7.4-intl \
-	php7.1-mcrypt\
         php-imagick \
         php-oauth \
         # Install tools
