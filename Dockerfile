@@ -137,9 +137,9 @@ ADD . /configs
 
 RUN ln -sf /configs/nginx/nginx.conf /etc/nginx/nginx.conf
 RUN ln -sf /configs/nginx/sites-available/magento /etc/nginx/sites-enabled/default
-RUN ln -sf /configs/php5/php.ini /etc/php/7.4/fpm/php.ini
-RUN ln -sf /configs/php5/php-fpm.conf /etc/php/7.4/fpm/php-fpm.conf
-RUN ln -sf /configs/php5/pool.d/www.conf /etc/php/7.4/fpm/pool.d/www.conf
+RUN ln -sf /configs/php/7.4/php.ini /etc/php/7.4/fpm/php.ini
+RUN ln -sf /configs/php/7.4/php-fpm.conf /etc/php/7.4/fpm/php-fpm.conf
+RUN ln -sf /configs/php/7.4/pool.d/www.conf /etc/php/7.4/fpm/pool.d/www.conf
 
 EXPOSE 80
 
